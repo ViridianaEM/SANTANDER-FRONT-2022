@@ -8,30 +8,32 @@
     <title>Matcha</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
-<header class="header">
-    <a href="/index.html" class="logo">
-        <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha" style="width: 60px; height: 60px;"/>
-    </a>
-    
-    <!--menu de navegacion-->
-    <nav class="navbar">
-        <ul>
-            <li>Platform</li>
-            <li>Pricing</li>
-            <li>costumers</li>
-            <li>resources</li>
-            <li>about</li>
-        </ul>
-    </nav>
-    <!--inicio de sesión-->
-    <div class="actions">
-        <a href="#">sign in</a>
-        <button>strat free trial</button>
-    </div>
-</header>
-
 <body>
+    <section class="fixed-header">
+        <header class="header">
+            <a href="/index.html" class="logo">
+                <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha" style="width: 60px; height: 60px;"/>
+            </a>
+            
+            <!--menu de navegacion-->
+            <nav class="navbar">
+                <ul>
+                    <li><a href>Platform</a></li>
+                    <li><a href>Pricing</a></li>
+                    <li><a href>Costumers</a></li>
+                    <li><a href>Resources</a></li>
+                    <li><a href>About</a></li>
+                </ul>
+            </nav>
+            <!--inicio de sesión-->
+            <div class="actions">
+                <a href="/index.html">Sign In</a>
+                <button>Strat free trial</button>
+            </div>
+        </header>
+        
+    </section>
+
     <section class="main">
         <h1>Build your Blog. Build your business</h1>
         <h4>Instantly publish articles, drive more traffic, grow your email list, and see your blog's impact on sales</h4>
@@ -45,8 +47,58 @@
         <p class="texto-promocional"><strong>No credit card</strong> required.</p>
 
         <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="Captcha de Capterra"/>
-
+        
     </section>
-    </body>
+
+    <section class="promo">
+        <article class="explanatory-video">
+            <video controls poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
+                <source type= "video/webm" src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
+                <source type="video/mp4" src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"/>
+            </video>
+            <p>See how it works</p>
+            <img
+              src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png"
+              alt="See how it works"
+            />
+
+        </article>
+        
+        <article class="publish">
+            <h3>Publish to your blog in minutes, not hours.</h3>
+            <p>
+              Your blog is your most powerful asset to build, engage, and retain a loyal
+              audience. But you don't have hours to create content that may or may not
+              work. With Matcha, instantly publish from our library of 10,000+
+              professionally written articles and build your email list faster with our
+              powerful conversion tool.
+            </p>
+            <form >
+              <p>Start publishing today:</p>
+              <div >
+                <input type="text" placeholder="Enter email" />
+                <button>Start My Trial</button>
+              </div>
+            </form>
+          </article>
+    </section>
+    <section class="succes-stories">
+        <article class="overview">
+            <h2>Growing ecommerce brands rely on Matcha.</h2>
+            <p>Are you tired of wasting time publishing blog articles to only see a trickle of traffic and no impact on sales? Join hundreds of business owners and ecommerce marketers who rely on Matcha for quality content and consistent performance from their blogs.</p>
+            <button id="whousesmatcha">Who uses matcha?</button>
+            <br>
+            <img src="https://getmatcha.com/wp-content/uploads/2019/09/brands_group.png" style="width: 60%; ">
+        </article>
+        <div class="stories">
+            <div class="wrapper">
+                <div class="card-image" img src="https://www.elmueble.com/medio/2021/05/17/te-matcha-en-polvo_e04db7ac_674x1011.jpg" alt="matcha"></div>
+                <div class="title-card">Everly</div>
+                <div class="desc-card">Early-Stage CPG Brand Increases Lead Conversion 20x, Ecommerce Revenue 20%</div>
+                <button id="button-card">see case study</button>
+            </div>
+        </div>
+    </section>
+</body>
 
 </html>

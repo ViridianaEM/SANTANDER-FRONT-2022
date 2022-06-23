@@ -1,5 +1,5 @@
 body {
-    background-color: #b9c6ff;
+    background-color: #fffbf7;
 }
 
 h1 {
@@ -30,18 +30,42 @@ button {
     height: 100%;
     line-height: 45px;
 }
+.logo {
+    width:15%;
+    display: inline-block;
+}
 .logo >img {
-    width:15%
+    width:20%;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
 .navbar{
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: #025157;
+    font-weight: 500;
+    height: 45px;
+}
+.header ul {
+    margin-top: 0;
+}
+.navbar li {
+    margin: 0 25px;
+    color: #025157;
+}
+li{
+    display:inline;
 }
 .actions{
     width: 15%;
-    text-align: right;
-    font-size: 14px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
 }
 .actions > * {
     margin-right: 10px;
@@ -51,7 +75,7 @@ button {
     color: #67b54b;
 }
 .main{
-    margin-top: 140px;
+    margin-top: 285px;
     text-align:center;
 }
 .actions button {
@@ -68,4 +92,93 @@ button {
     display: inline;
     margin-right: 25px;
     margin-left: 25px;
+}
+.publish {
+    /* container styles if any */
+}
+.publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+  .publish > form {
+    display: flex;
+}
+  .publish > form p {
+    color: #025157;
+    margin-right: 18px;
+}
+form{
+    align-items: center;
+}
+.promo {
+    display: flex;
+    width:70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+/* success stories section*/
+.succes-stories{
+    display:flex;
+    background-color: #a1d683;
+    align-items: center;
+    flex-direction:row;
+}
+.overview{
+    padding: 5%;
+}
+.stories{
+    padding: 5%;
+}
+.wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: white;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 15px;
+  /*position: relative;*/
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+.card-image{
+  position: relative;
+  height: 230px;
+  margin-bottom: 35px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.title-card{
+    font-size: 26px;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.desc-card{
+    font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.button-card{
+    background-color: #1e8188cc;
+}
